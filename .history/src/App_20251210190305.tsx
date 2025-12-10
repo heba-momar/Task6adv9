@@ -1,0 +1,27 @@
+import { Outlet, useLocation } from 'react-router-dom'
+import './App.css'
+import Navbar from './components/Navbar/Navbar'
+import { useSelector } from 'react-redux';
+import { useEffect } from 'react';
+import { RootState } from './redux/store/index';
+function App() {
+  const isDark = useSelector((state: RootState) => state.mode.isDark);
+  const location = useLocation();
+
+  useEffect(() => {
+    document.documentElement.classList.toggle('dark', isDark);
+  }, [isDark]);
+  return (
+    <>
+    <div className='className="min-h-screen  bg-white  text-black01 dark:bg-darkNavy dark:text-white px-[8.20512821%] md:px-[3.83693046%] lg:px-[7.777777777777778%] font-inter'>
+       <Navbar/>
+    <div className='pt-24'>
+      <Outlet/>
+    </div> 
+    </div>
+  
+    </>
+  )
+}
+
+export default App

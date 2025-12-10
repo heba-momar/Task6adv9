@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme{
+  --font-inter: 'Inter', sans-serif;
+  --color-black01: #1A1A1A;
+  --color-darkNavy: #090D1F;
+  --color-pink01:#7F56D9;
+  --color-gray01:#667085;
+  --color-gray02:#D0D5DD;
+  --color-gray03:#EAECF0;
+  --color-purple01:#6941C6;
+  --color-purple02:#F9F5FF;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+
