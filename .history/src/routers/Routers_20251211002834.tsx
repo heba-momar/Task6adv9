@@ -6,7 +6,7 @@ import Newsletter from "../page/Newsletter";
 import BlogDetails from "../page/BlogDetails";
 
 export const routers =createBrowserRouter([{
-    path:"/task6",
+    path:"/Task6adv9",
     element:<App/>,
     children:[{
      index:true,

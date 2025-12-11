@@ -2124,7 +2124,7 @@ export const blogsData: Post[] = [
     },
     {
       title: "Resilience in the Face of Setbacks",
-      blogImage: "/task6/images/posts/deatils/10/1.webp",
+      blogImage: "/images/posts/deatils/10/1.webp",
       ImageDescription: "Visual showing a comeback trajectory from losses to championships.",
       paragraphs: [
         {

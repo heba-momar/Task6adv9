@@ -2018,7 +2018,7 @@ export const blogsData: Post[] = [
       },
       {
         title: "Popular Mental Models for PMs",
-        blogImage: "/task6/images/posts/deatils/9/3.webp",
+        blogImage: "/images/posts/deatils/9/3.webp",
         ImageDescription: "List of well-known mental models like Eisenhower Matrix and First Principles.",
         paragraphs: [
           {
@@ -2036,7 +2036,7 @@ export const blogsData: Post[] = [
       },
       {
         title: "Mental Models in Daily Work",
-        blogImage: "/task6/images/posts/deatils/9/4.webp",
+        blogImage: "/images/posts/deatils/9/4.webp",
         ImageDescription: "PM whiteboarding trade-offs using the Eisenhower Matrix.",
         paragraphs: [
           {
@@ -2062,7 +2062,7 @@ export const blogsData: Post[] = [
   id: 20,
   date: "Sunday , 1 Jan 2023",
   title: "Bill Walsh leadership lessons",
-  image: "/task6/images/posts/5.webp",
+  image: "/images/posts/5.webp",
   name: "Alec Whitten • ",
   description: [
     "Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?"
@@ -2075,7 +2075,7 @@ export const blogsData: Post[] = [
   details: [
     {
       title: "The Legacy of Bill Walsh",
-      blogImage: "/task6/images/posts/deatils/10/1.webp",
+      blogImage: "/images/posts/deatils/10/1.webp",
       ImageDescription:
         "A photo of Bill Walsh on the sidelines coaching, with a strategic game plan in the background.",
       paragraphs01: [
@@ -2088,7 +2088,7 @@ export const blogsData: Post[] = [
     },
     {
       title: "Standard of Performance",
-      blogImage: "/task6/images/posts/deatils/10/2.webp",
+      blogImage: "/images/posts/deatils/10/2.webp",
       ImageDescription: "A chalkboard graphic showing ‘Standards’ over ‘Results’.",
       paragraphs: [
         {
@@ -2100,7 +2100,7 @@ export const blogsData: Post[] = [
     },
     {
       title: "Lead with Precision and Intent",
-      blogImage: "/task6/images/posts/deatils/10/3.webp",
+      blogImage: "/images/posts/deatils/10/3.webp",
       ImageDescription: "Diagram of structured team responsibilities and leadership layers.",
       paragraphs: [
         {
@@ -2112,7 +2112,7 @@ export const blogsData: Post[] = [
     },
     {
       title: "Empower People to Think Like Leaders",
-      blogImage: "/task6/images/posts/deatils/10/4.webp",
+      blogImage: "/images/posts/deatils/10/4.webp",
       ImageDescription: "Team huddle with players and assistants in active decision-making.",
       paragraphs: [
         {
@@ -2124,7 +2124,7 @@ export const blogsData: Post[] = [
     },
     {
       title: "Resilience in the Face of Setbacks",
-      blogImage: "/task6/images/posts/deatils/10/1.webp",
+      blogImage: "/images/posts/deatils/10/1.webp",
       ImageDescription: "Visual showing a comeback trajectory from losses to championships.",
       paragraphs: [
         {

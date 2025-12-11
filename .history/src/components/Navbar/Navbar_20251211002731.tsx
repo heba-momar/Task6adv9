@@ -25,7 +25,7 @@ const Navbar = () => {
               {/* Navigation links */}
               {NavData.map((item, index) => (
                 <li key={index}  className="p-2">
-                  <NavLink to={item.path} end={item.path === "/task6"}
+                  <NavLink to={item.path} end={item.path === "/theblog"}
                     className={({ isActive }) => isActive ? "border-b-2 pb-1" : " "}
                   >
                     {item.name}
@@ -39,7 +39,7 @@ const Navbar = () => {
               {/* Close button at the bottom */}
               <li className="absolute bottom-1 mb-5">
                 <button onClick={() => setMenuOpen(false)} aria-label="close menu">
-                  <img src="/task6/images/navbar/close.svg" alt="Close"
+                  <img src="/Task6adv9/images/navbar/close.svg" alt="Close"
                     className="dark:filter dark:invert"/>
                 </button>
               </li>
@@ -49,14 +49,14 @@ const Navbar = () => {
 
         {/* Hamburger menu button for mobile */}
         <button className="md:hidden z-50" onClick={() => setMenuOpen(true)} aria-label="Open menu">
-          <img src="/task6/images/navbar/bars.svg" alt="Menu" className="dark:filter dark:invert"/>
+          <img src="/Task6adv9/images/navbar/bars.svg" alt="Menu" className="dark:filter dark:invert"/>
         </button>
 
         {/* Desktop navigation links */}
         <ul className="hidden md:flex md:flex-row md:gap-3.5 font-normal text-lg lg:text-[20px] leading-6">
           {NavData.map((item, index) => (
             <li key={index} className="p-2">
-              <NavLink to={item.path} end={item.path === "/task6"}
+              <NavLink to={item.path} end={item.path === "/Task6adv9"}
                 className={({ isActive }) => isActive ? "border-b-2 pb-1" : " "}> {item.name}</NavLink>
             </li>
           ))}

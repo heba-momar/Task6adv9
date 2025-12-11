@@ -25,7 +25,7 @@ const Navbar = () => {
               {/* Navigation links */}
               {NavData.map((item, index) => (
                 <li key={index}  className="p-2">
-                  <NavLink to={item.path} end={item.path === "/task6"}
+                  <NavLink to={item.path} 
                     className={({ isActive }) => isActive ? "border-b-2 pb-1" : " "}
                   >
                     {item.name}
@@ -56,7 +56,7 @@ const Navbar = () => {
         <ul className="hidden md:flex md:flex-row md:gap-3.5 font-normal text-lg lg:text-[20px] leading-6">
           {NavData.map((item, index) => (
             <li key={index} className="p-2">
-              <NavLink to={item.path} end={item.path === "/task6"}
+              <NavLink to={item.path}
                 className={({ isActive }) => isActive ? "border-b-2 pb-1" : " "}> {item.name}</NavLink>
             </li>
           ))}

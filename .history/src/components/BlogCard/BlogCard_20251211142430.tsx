@@ -13,7 +13,7 @@ const BlogCard = ({ blog, cardContainerClass, imgClass, titleClass, pargClass, l
           <p className="text-sm font-semibold leading-5 text-purple01 flex"> <span className="hidden lg:block">{blog?.name}</span> {blog.date}</p>
           <div className="flex justify-between items-start ">
             <h4 className={`${titleClass} font-semibold tracking-wide `}>{blog.title}</h4>
-            <Link to={`/task6/${blog.id}`} className="group inline-flex items-center">
+            <Link to={`/theblog${blog.id}`} className="group inline-flex items-center">
               <GoArrowUpRight className="w-6 h-6 transition-transform duration-200 group-hover:-translate-y-1 group-hover:translate-x-1" />
             </Link>
           </div>

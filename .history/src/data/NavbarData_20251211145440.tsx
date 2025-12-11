@@ -5,14 +5,14 @@ export const NavData = [
   },
   {
     name: "Projects",
-    path: "/task6/project"
+    path: "/theblog/project"
   },
   {
     name: "About",
-    path: "/task6/about"
+    path: "/theblog/about"
   },
   {
     name: "Newsletter",
-    path: "/task6/newsletter"
+    path: "/theblog/newsletter"
   }
 ]
